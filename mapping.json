@@ -1,0 +1,38 @@
+{
+	"mappings": {
+		"repository": {
+			"properties": {
+				"name": {
+					"type": "string"
+				},
+				"full_name": {
+					"type": "string"
+				},
+				"html_url": {
+					"type": "string"
+				},
+				"description": {
+					"type": "string"
+				},
+				"created_at": {
+					"type": "date"
+				},
+				"stargazers_count": {
+					"type": "integer"
+				},
+				"watchers_count": {
+					"type": "integer"
+				},
+				"language": {
+					"type": "string"
+				},
+				"has_issues": {
+					"type": "boolean"
+				},
+				"forks_count": {
+					"type": "integer"
+				}
+			}
+		}
+	}
+}
